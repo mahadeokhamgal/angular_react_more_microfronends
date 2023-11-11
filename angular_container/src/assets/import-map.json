@@ -5,6 +5,6 @@
     "child1": "http://localhost:4201/main.js",
     "child2": "http://localhost:4202/main.js",
     "child3": "http://localhost:4203/author-reactchild.js",
-    "child4": "http://localhost:8080/author-reactchild.js"
+    "@react-mf/things": "https://react.microfrontends.app/things/7f209a1ed9ac9690835c57a3a8eb59c17114bb1d/react-mf-things.js"
   }
 }

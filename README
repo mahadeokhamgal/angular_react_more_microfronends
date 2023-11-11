@@ -1,0 +1,6 @@
+Hii.
+
+This repo has been created to demonstrate the angular and react childs together, 
+the angular-container is the app wich loads both angular and react childs successfully.(Needed to add react in import map object)
+
+    child-4 in angular-container is remote react hosted child app.

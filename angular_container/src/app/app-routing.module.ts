@@ -30,7 +30,7 @@ const routes: Routes = [{
   children: [{
     path: '**',
     loadChildren: () => import('./spa-host/spa-host.module').then(m => m.SpaHostModule),
-    data: { app: 'child4' }
+    data: { app: '@react-mf/things' }
   }]
 }];
 
