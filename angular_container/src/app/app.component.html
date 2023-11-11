@@ -1,20 +1,22 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
   <h1>
-    Welcome to {{ title }}!
+    ** Welcome to Angular {{ title }} App **
   </h1>
 </div>
 
 <main>
-    <ul>
-      <li><h2><a routerLink="/child1">Child 1</a></h2></li>
-      <li><h2><a routerLink="/child2">Child 2</a></h2></li>
-      <li><h2><a routerLink="/child3">Child 3</a></h2></li>
-      <li><h2><a routerLink="/child4">Child 4</a></h2></li>
-    </ul>
-    <section class="child-app">
-        <router-outlet></router-outlet>
-    </section>
+    <div>
+      <ul>
+        <li><a routerLink="/child1">Angular child 1</a></li>
+        <li><a routerLink="/child2">Angular child 2</a></li>
+        <li><a routerLink="/child3">React child 3</a></li>
+        <li><a routerLink="/child4">React remote child 4</a></li>
+        <li><a routerLink="/child5">Vue child 5</a></li>
+      </ul>
+    </div>
+
+  <section class="child-app">
+    <router-outlet></router-outlet>
+  </section>
 </main>
-
-

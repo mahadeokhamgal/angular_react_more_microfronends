@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/scss/bootstrap.scss",
               "src/styles.css"
             ],
             "scripts": [
@@ -31,7 +32,9 @@
               "node_modules/systemjs/dist/extras/amd.min.js",
               "node_modules/systemjs/dist/extras/named-exports.min.js",
               "node_modules/systemjs/dist/extras/named-register.min.js",
-              "node_modules/import-map-overrides/dist/import-map-overrides.js"
+              "node_modules/import-map-overrides/dist/import-map-overrides.js",
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
             ],
             "customWebpackConfig": {
               "path": "./extra-webpack.config.js"

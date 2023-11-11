@@ -32,6 +32,14 @@ const routes: Routes = [{
     loadChildren: () => import('./spa-host/spa-host.module').then(m => m.SpaHostModule),
     data: { app: '@react-mf/things' }
   }]
+},
+{
+  path: 'child5',
+  children: [{
+    path: '**',
+    loadChildren: () => import('./spa-host/spa-host.module').then(m => m.SpaHostModule),
+    data: { app: 'child5' }
+  }]
 }];
 
 @NgModule({
