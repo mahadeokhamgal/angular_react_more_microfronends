@@ -4,7 +4,7 @@
     "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js",
     "child1": "http://localhost:4201/main.js",
     "child2": "http://localhost:4202/main.js",
-    "child3": "https://react.microfrontends.app/planets/2717466e748e53143474beb6baa38e3e5320edd7/react-mf-planets.js",
+    "child3": "http://localhost:4203/author-reactchild.js",
     "child4": "http://localhost:8080/author-reactchild.js"
   }
 }
